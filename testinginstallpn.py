@@ -10,11 +10,11 @@ with open(file_path, "r") as file:
 
 # Define the replacements
 replacements = [
-    (r"INSERT ROUTES HERE", "  },\nINSERT ROUTES HERE"),
-    (r"INSERT ROUTES HERE", "      .then(m => m.ItemsPlanningPnModule)\nINSERT ROUTES HERE"),
-    (r"INSERT ROUTES HERE", "    loadChildren: () => import('./modules/items-planning-pn/items-planning-pn.module')\nINSERT ROUTES HERE"),
-    (r"INSERT ROUTES HERE", "    path: 'items-planning-pn',\nINSERT ROUTES HERE"),
-    (r"INSERT ROUTES HERE", "  {\nINSERT ROUTES HERE"),
+    (r"// INSERT ROUTES HERE", "  {\n// INSERT ROUTES HERE"),
+    (r"// INSERT ROUTES HERE", "    path: 'items-planning-pn',\n// INSERT ROUTES HERE"),
+    (r"// INSERT ROUTES HERE", "    loadChildren: () => import('./modules/items-planning-pn/items-planning-pn.module')\n// INSERT ROUTES HERE"),
+    (r"// INSERT ROUTES HERE", "      .then(m => m.ItemsPlanningPnModule)\n// INSERT ROUTES HERE"),
+    (r"// INSERT ROUTES HERE", "  },\n// INSERT ROUTES HERE"),
 ]
 
 # Apply each replacement in sequence
